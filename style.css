@@ -263,7 +263,58 @@ header{
 	width: 60px;
 	height: 20px;
 	clip-path: polygon(100% 0%, 50% 100%, 0% 0%);
+	margin: -2px auto 0 auto;
+}
+#container-6{
+	max-width: 630px;
+	height: 530px;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.six-text{
+	color: #605f71;
+	text-align: center;
+	font-family: "Open Sans", Regular;
+}
+#six-text-title{
+	font-size: 24px;
+	color: white;
+	font-weight: 400;
+}
+#contact-style{
+	font-weight: 700;
+}
+.container-6-1-box{
+	max-width: 540px;
+	height: 110px;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.container-6-2-box{
+	max-width: 630px;
+	height: 360px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.upper-input-box{
+	margin-bottom: 20px;
+}
+#six-btn{
+	width: 170px;
+	height: 45px;
+	text-transform: uppercase;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	border: 1px solid white;
 }
 #seven{
 	height: 295px;
